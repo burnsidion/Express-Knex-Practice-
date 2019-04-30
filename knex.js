@@ -8,3 +8,5 @@ const knexConfig = require('./knexfile')[environment]
 //this line calls knex into play, allowing me to utlize knex syntax and methods
 const knex = require('knex')(knexConfig)
 module.exports = knex
+
+///blah blah blah blah blah
