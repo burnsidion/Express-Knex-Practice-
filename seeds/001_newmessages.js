@@ -18,7 +18,7 @@ exports.seed = function(knex, Promise) {
         updated_at: new Date('2016-06-26 14:26:16 UTC')
       }
     ])
-    //this line is the final part of the promise, it returns the table with the inserted seeds and displays all the id's for each entry
+    //this line (22) is the final part of the promise, it returns the table with the inserted seeds and displays all the id's for each entry
     .then(() => {
         return knex.raw(`SELECT setval('newmessages_id_seq', (SELECT MAX(id) FROM newmessages));`)
       })

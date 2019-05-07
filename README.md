@@ -1,2 +1,2 @@
 # Express-Knex-Practice-
-This repo will be used to build and burn an express server and database creation
+This repo will be used to build and burn an express server and database creation. This repo will contain many many comments that will never be found in an official codebase, but will be used as a means for me to understand the ins and outs of a server, and the aspects of REST API architecture. This will eventually be used as the API that my react application will communicate with. 
